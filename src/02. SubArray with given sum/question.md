@@ -1,0 +1,1 @@
+Given an unsorted array arr of nonnegative integers and an integer sum, find a continuous subarray which adds to a given sum.
