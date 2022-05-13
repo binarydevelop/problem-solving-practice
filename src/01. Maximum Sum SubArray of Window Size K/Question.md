@@ -1,1 +1,1 @@
-Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum. 
+Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum in a window of size k. 
