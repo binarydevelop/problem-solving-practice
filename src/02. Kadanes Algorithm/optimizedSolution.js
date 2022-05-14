@@ -1,6 +1,6 @@
 function maxSubarraySum(arr, size)
 {
-    let max_ending_here = 0, max_so_far = Number.MIN_VALUE;
+    let max_ending_here = arr[0], max_so_far = arr[0];
     for (let i = 0; i < size; i++) {
 
         // include current element to previous subarray only
@@ -19,3 +19,5 @@ function maxSubarraySum(arr, size)
     }
     return max_so_far;
 }
+
+console.log(maxSubarraySum([ -1, -2, -3, -4 ], 4));
