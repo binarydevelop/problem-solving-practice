@@ -2,12 +2,13 @@ function missingNumber(array, n){
     array.sort((a , b) => {
       return a - b ; 
     })
-    for(let i = 0; i < array.length + 1 ;i++){ 
+    for(let i = 0; i < n + 1 ;i++){ 
       if(array[i] !== i+1){
         return (i+1);
       }
     }
 }
+
 
 /* 
 array.length + 1 to compensate for the case when N = 2 or array length is 2 and we have a

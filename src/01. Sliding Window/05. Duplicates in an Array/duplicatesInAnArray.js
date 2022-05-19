@@ -14,3 +14,4 @@ function duplicatesInAnArray(){
 return Array.from(duplicates);
 }
 
+console.log(duplicatesInAnArray([1, 2, 3, 1, 3, 6, 6])); // 1,3,6
