@@ -14,4 +14,12 @@ function subArrayWithGivenSum(arr, sum){
   }
   
   
-  console.log(subArrayWithGivenSum([1,2,3,4,6,88],10));
+  console.log(subArrayWithGivenSum([1,2,3,4,6,88],10)); // 4
+
+  /* 
+  How it works? 
+  We start by adding first element of the array and keeping a startCounter whenever sum gets higher than 
+  the given sum it gets into this while loop which keeps on subtracting the arr[windowStart] from the sum 
+  then we have a condition which checks if both sum and currentSum are equal.  
+  
+  */

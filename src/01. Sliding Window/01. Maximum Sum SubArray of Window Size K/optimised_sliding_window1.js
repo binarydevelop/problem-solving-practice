@@ -10,4 +10,4 @@ function subArraywithMaxSum(arr, windowSize){
     }
     return maxSum;
   }
-  console.log(subArraywithMaxSum([4, 2, 3, 5,7, 1, 2], 3));
+  console.log(subArraywithMaxSum([4, 2, 3, 5,7, 1, 2], 3)); // 15
